@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+    color: white;
+
+    font-family: "Determination Mono";
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Determination Mono";
+    src: url(determinationmonoweb-webfont-webfont.woff) format("woff");
+}
+
+#header {
+    text-align: center;
+    font-size: 50px;
+
+    height: 250px;
+}
+
+#header h1 {
+    position: relative;
+    right: 60px;
+}
+
+#header img {
+    width: 70px;
+    position: relative;
+    bottom: 155px;
+    left: 350px;
+}
+
+#video {
+    position: relative;
+    right: 28px;
+    width: 853px; 
+    height: 480px;
+}
+
+#container {
+    text-align: center;
+    width: 800px;
+
+    padding: 50px;
+    border-width: 5px;
+    border-color: yellow;
+    border-style: solid;
+    margin: auto;
+}
+
+#navig {
+    background-color: black;
+    list-style-type: none;
+
+    border-width: 2px;
+    border-color: yellow;
+    border-style: solid;
+
+    width: 120px;
+    height: 140px;
+
+    position: fixed;
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+}
+
+li a:hover, a:active, a:focus{
+    background-color: lightyellow;
+}
+
+#footer {
+    text-align: center;
+
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#footer a img{
+    width: 45;
+    height: 45;
+}
+
+#contact {
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+
+#characters img{
+    width: 100px;
+    float: right;
+}
+
+#characters h4, #characters p{
+    width: 70%;
+}
+
+#table {
+    border-width: 2px;
+    border-color: yellow;
+    border-style: solid;
+
+    padding: 10px;
+}
+
+#columns {
+    color: red;
+
+    border-width: 1px;
+    border-color: yellow;
+    border-style: none none solid;
+}
+
+.temmie {
+    position: relative;
+    top: 54px;
+    left: 180px;
+    display: inline-block;
+}
+
+.temmie .tem-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.temmie:hover .tem-top {
+    display: inline;
+}
+
+.dogpic {
+    width: 100px;
+}
+
+.sleepingdog {
+    width: 100px;
+    position: relative;
+    right: 180px;
+    top: 54px;
+}
