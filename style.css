@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    background-image: url();
 
     font-family: "Determination Mono";
     font-size: 20px;
@@ -139,4 +140,12 @@ li a:hover, a:active, a:focus{
     position: relative;
     right: 180px;
     top: 54px;
+}
+
+.links a:link {  
+    color: white;
+}
+
+.links a:visited {  
+    color:yellow;
 }
